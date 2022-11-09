@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron&display=swap");
+.set {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: repeat(3, auto);
+  gap: 10px;
+}
+
+.personal_info {
+  grid-area: auto;
+}
+
+.my_books {
+  grid-area: auto;
+}
+
+.my_places {
+  grid-area: auto;
+}
+
+body {
+  background-image: url("https://cdn.staticcrate.com/stock-hd/effects/footagecrate-4k-looping-tech-background-clean-white-2-prev-full.png");
+  background-color: white;
+}
+
+header {
+  margin: 2px;
+  margin-top: 10px;
+}
+
+.div-menu {
+  box-sizing: border-box;
+  background-color: black;
+  width: 335px;
+  border: 15px solid #a5a3a3;
+  border-style: dotted;
+  border-radius: 5px;
+  padding: 2px;
+  margin: auto;
+  margin-top: 10px;
+  box-shadow: 0px 0px 18px 10px rgb(251, 248, 248);
+}
+
+.div-menu:hover {
+  opacity: 0.95;
+}
+
+.frame {
+  box-sizing: border-box;
+  border: 10px solid;
+  width: 520px;
+  height: 370px;
+  box-shadow: 0px 0px 18px 10px rgba(251, 248, 248, 0.35);
+}
+
+.menu {
+  color: rgb(170, 255, 0);
+  font-family: "Orbitron", sans-serif;
+  font-size: 50px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+
+h2 {
+  font-family: "Orbitron", sans-serif;
+  font-size: 29px;
+  color: rgb(16, 255, 0);
+}
+
+button {
+  width: 8cm;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  color: black;
+  display: inline-block;
+  outline: 0;
+  cursor: pointer;
+  border-radius: 8px;
+  padding: 14px 24px 16px;
+  font-family: monospace;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1;
+}
+
+button:hover {
+  opacity: 0.85;
+}
+
+button:active {
+  color: white;
+  background-color: black;
+  box-shadow: 0px 0px 18px 10px rgba(251, 248, 248, 0.44);
+}
+
+.yellow-letter {
+  color: rgb(170, 255, 0);
+  font-family: "Orbitron", sans-serif;
+  font-size: 18px;
+}
+
+.books-table {
+  background-color: gray;
+  border: 2px solid;
+  border-color: black;
+}
+
+table > tr, th {
+  background-color: gray;
+  border: 2px solid;
+  border-color: black;
+}
+
+/*# sourceMappingURL=styles.css.map */
